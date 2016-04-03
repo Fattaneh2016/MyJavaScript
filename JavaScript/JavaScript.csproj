@@ -66,6 +66,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\myCss.css" />
+    <Content Include="Js\JsEvent.js" />
+    <Content Include="MyJavaEvent.html" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

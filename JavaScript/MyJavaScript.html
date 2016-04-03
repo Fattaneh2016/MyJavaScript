@@ -3,7 +3,7 @@
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script type="text/javascript" src="Js/MyJS.js" ></script>
+    
 </head>
 
 <body>
@@ -36,19 +36,33 @@
 
     <form>
         <fieldset>
-            <legend>text value</legend>
-
-            input <input type="text" name="position" />
+            <legend>Text Value</legend>
+            Position: <input type="text" name="position" value="" />
         </fieldset>
         <fieldset>
-            <legend> option valus</legend><br />
-            it techology: <input type="radio" value="it" name="department"/><br />
-            sales : <input type="radio" value="sales" name="department" /><br />
-            accounting :<input type="radio" value="account" name="department" /><br />
+            <legend>Radio Value</legend>
+            <em>Department</em><br />
+            FIELD: <input type="radio" name="department" value="Field" checked="checked" /><br />
+            ITOPS: <input type="radio" name="department" value="IT Operations" /><br />
+            SALES: <input type="radio" name="department" value="Sales" /><br />
+            MGMT: <input type="radio" name="department" value="Management" />
         </fieldset>
-        <button onclick="saveTextValue()">save text value </button>
-        <button onclick="saveRadioValue()">Save radio value</button>
+        <button type="button" onclick="saveTextValue()">Save Text</button>
+        <button type="button" onclick="saveRadioValue()">Save Radio</button>
+
+        <hr />
+        <!--<button type="button" onclick="handleClick(doMore)">Click me</button>-->
+        <button type="button" onclick="handleClick(doSomethingElse)">Click me</button>
+        <hr />
+        
+           <!-- <button onclick="document.getElementById('dateTarget').innerHTML=Date()">Get Current Time</button>-->
+        <p id="dateTarget">
+            <button id="dateButton">Get Current Time</button>
+        </p>
+        
+        
     </form>
+    <script type="text/javascript" src="Js/MyJS.js"></script>
 </body>
 </html>
 
