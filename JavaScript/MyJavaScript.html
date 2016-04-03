@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="Js/MyJS.js" ></script>
+</head>
+
+<body>
+    <header id="headerItem">
+        Old Header
+    </header>
+    <section>
+        <button onclick="clickHandler()">Click Here</button>
+    </section>
+    <section>
+        <button onclick="startLogic()">My javascript </button>
+    </section>
+    <section id="output">
+        <button onclick="Mytest()">My test javascript</button>
+    </section>
+    <section>
+        <button
+            onclick=myTestVariable()> My variables
+        </button>
+    </section>
+
+    <dl>
+        <dt>Is the variable undefined?</dt>
+        <dd id="isUndefined"></dd>
+        <dt>Is the variable null?</dt>
+        <dd id="isNull"></dd>
+        <dt>Is the variable empty?</dt>
+        <dd id="isEmpty"></dd>
+    </dl>
+
+    <form>
+        <fieldset>
+            <legend>text value</legend>
+
+            input <input type="text" name="position" />
+        </fieldset>
+        <fieldset>
+            <legend> option valus</legend><br />
+            it techology: <input type="radio" value="it" name="department"/><br />
+            sales : <input type="radio" value="sales" name="department" /><br />
+            accounting :<input type="radio" value="account" name="department" /><br />
+        </fieldset>
+        <button onclick="saveTextValue()">save text value </button>
+        <button onclick="saveRadioValue()">Save radio value</button>
+    </form>
+</body>
+</html>
+
+ <!--control statements--> 
+
+<!--<!--if (day > 5) {
+    greeting = "Have a good weekend!";
+} else if (day < 2) {
+    greeting = "Are you having a case of the Mondays!";
+} else {
+    greeting = "Welcome to work";
+}-->
+
+
+<!--******For--> 
+<!--var countries = ["USA", "JPN", "RUS", "ENG"];
+for (var i = 0; i < countries.length; i++) {
+    text += countries + "<br />";
+}-->
+<!--***********Foreach
+var sum = 0;
+var numbers = [4, 9, 16, 25];
+function increment(item, index) {
+    sum += item;
+}
+numbers.forEach(increment);
+alert(sum);-->
+
+<!--********Switch
+
+var day;
+switch (new Date().getDay()) {
+    case 0:
+        day = "Sunday";
+        break;
+    case 1:
+        day = "Monday";
+        break;
+    case 2:
+        day = "Tuesday";
+        break;
+    case 3:
+        day = "Wednesday";
+        break;
+    case 4:
+        day = "Thursday";
+        break;
+    case 5:
+        day = "Friday";
+        break;
+    case 6:
+        day = "Saturday";
+        break;
+}
+alert(day);-->
