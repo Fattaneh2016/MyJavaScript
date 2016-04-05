@@ -22,4 +22,10 @@ section.innermost {
     background-color: #217773;
 }
 
+canvas {
+
+    border-width:3px;
+    border-style:solid ;
+    border-color:rebeccapurple;
+}
 

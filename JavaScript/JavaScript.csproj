@@ -66,8 +66,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="API.html" />
     <Content Include="css\myCss.css" />
+    <Content Include="HandlingException.html" />
+    <Content Include="Js\ErrorJS.js" />
+    <Content Include="Js\JSAPI.js" />
     <Content Include="Js\JsEvent.js" />
+    <Content Include="Js\XMLHttpRequest.js" />
     <Content Include="MyDOM.html" />
     <Content Include="MyJavaEvent.html" />
     <Content Include="packages.config" />
