@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="API.html" />
+    <Content Include="Canvas.html" />
     <Content Include="css\myCss.css" />
     <Content Include="HandlingException.html" />
     <Content Include="Js\ErrorJS.js" />
