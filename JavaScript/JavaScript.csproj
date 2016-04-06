@@ -73,10 +73,15 @@
     <Content Include="Js\ErrorJS.js" />
     <Content Include="Js\JSAPI.js" />
     <Content Include="Js\JsEvent.js" />
+    <Content Include="Js\jsWebWorker.js" />
+    <Content Include="Js\mod4_worker.js" />
+    <Content Include="Js\Socket.js" />
     <Content Include="Js\XMLHttpRequest.js" />
     <Content Include="MyDOM.html" />
     <Content Include="MyJavaEvent.html" />
     <Content Include="packages.config" />
+    <Content Include="WebSocket.html" />
+    <Content Include="WebWorker.html" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

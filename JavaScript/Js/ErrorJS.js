@@ -12,3 +12,24 @@ try {
 function methodName() {
     return "Output message  ";
 };
+
+
+function sendDataToCallback(input, callback) {
+
+    var newValue = input + 3;
+
+    callback(newValue);
+
+}
+
+//You call this function using the following lines of JavaScript:
+
+var originalData = 5;
+
+function handleCallback(value) {
+
+    alert(value);
+
+}
+
+sendDataToCallback(originalData, handleCallback);
